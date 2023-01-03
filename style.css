@@ -1,0 +1,38 @@
+.parent{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.col{
+    width: 300px;
+    height: 310px;
+    border: 1px solid black;
+}
+.col img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+.div-img{
+    background-color: antiquewhite;
+    height: 100px;
+    width: 300px;
+}
+p{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-left: 80px;
+    background-color: brown;
+    color: white;
+    border: 1px solid brown;
+    border-radius: 20px;
+    height: 40px;
+    width: 140px;
+}
+button:hover{
+    background-color: white;
+    color: brown;
+}
